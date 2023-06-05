@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./todo.html">To Do</a></li>
+        </ul>
+      </nav>
+      <main>
+        <h1>To Do</h1>
+        <label for="toDoId">To Do ID:</label><br />
+        <input type="number" id="toDoId" name="toDoId" value="" /><br />
+        <br />
+        <button type="button" id="genObjBtn">Find Task</button>
+        <div class="displayInfo">
+          <p id="userId"></p>
+          <p id="taskid"></p>
+          <p id="title"></p>
+          <p id="completed"></p>
+        </div>
+      </main>
+    </header>
+    <script src="./todo.js"></script>
+  </body>
+</html>
