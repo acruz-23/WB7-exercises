@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./table.css" />
   </head>
   <body>
     <header>
@@ -16,14 +17,25 @@
         </ul>
       </nav>
       <main>
-        <h1>Home</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi in
-          omnis officiis quisquam, vitae animi iusto illum praesentium rem,
-          saepe ducimus totam temporibus, minima qui aut ullam placeat obcaecati
-          dolore!
-        </p>
+        <h1>Users</h1>
+        <br />
+        <button type="button" id="genUsers">Find All Users</button>
+        <hr />
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Username</th>
+              <th>Email</th>
+              <th>Website</th>
+              <th>Company</th>
+            </tr>
+          </thead>
+          <tbody id="tabBody"></tbody>
+        </table>
       </main>
     </header>
+    <script src="users.js"></script>
   </body>
 </html>
