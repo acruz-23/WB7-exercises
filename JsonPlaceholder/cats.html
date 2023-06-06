@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./table.css" />
   </head>
   <body>
     <header>
@@ -17,14 +18,21 @@
         </ul>
       </nav>
       <main>
-        <h1>Home</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi in
-          omnis officiis quisquam, vitae animi iusto illum praesentium rem,
-          saepe ducimus totam temporibus, minima qui aut ullam placeat obcaecati
-          dolore!
-        </p>
+        <h1>Cats</h1>
+        <br />
+        <button type="button" id="genFacts">Find Facts</button>
+        <hr />
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Fact</th>
+            </tr>
+          </thead>
+          <tbody id="tabBody"></tbody>
+        </table>
       </main>
     </header>
+    <script src="cats.js"></script>
   </body>
 </html>
