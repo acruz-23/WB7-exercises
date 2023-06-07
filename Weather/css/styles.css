@@ -1,0 +1,13 @@
+td, th {
+    padding: .6em;
+    border: thin solid black;
+}
+table{
+    border-collapse: collapse;
+}
+tbody > tr:nth-child(odd) {
+    background-color: rgb(230, 230, 230);
+}
+tbody > tr:hover{
+    background-color: lightblue;
+}
